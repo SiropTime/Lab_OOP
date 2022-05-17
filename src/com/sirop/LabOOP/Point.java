@@ -1,7 +1,7 @@
 package com.sirop.LabOOP;
 
 public class Point {
-    private float[] coords;
+    public float[] coords;
 
     Point(int dimension, float[] c) {
         this.coords = new float[dimension];
